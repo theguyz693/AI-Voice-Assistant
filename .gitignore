@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs & caches
+screenshots/*.png
+!screenshots/.gitkeep
+orb_position.txt
+.pytest_cache/
+*.log
+
+# Environment & Secrets
+.env
